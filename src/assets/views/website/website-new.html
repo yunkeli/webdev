@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags always come first -->
+        <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+          <link rel="stylesheet" type="text/css" href="../../style.css">
+          <link rel="stylesheet" media="all and (orientation:portrait)" href="../../style.css" />
+          <link rel="stylesheet" media="all and (orientation:landscape)" href="../../style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row row-margin-bottom">
+                <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#528dc6">
+                    <div class="row navbar-header col-xs-12">
+                        <a class="navbar-brand col-xs-offset-1" href="website-list.html" style="color:white"><span class="glyphicon  glyphicon-chevron-left"></span></a>
+                        <a class="navbar-brand col-xs-2" id="websites" href="#" style="color:white">Websites</a>
+                        <a class="navbar-brand col-xs-1" id="plusicon" style="color:white"><span class="glyphicon   glyphicon-plus"></span></a>
+                        <a class="navbar-brand col-xs-3" href="#" style="color:white" id="neww">New Websites</a>
+                        <a href="website-list.html" class="navbar-brand pull-right" style="color:white"><span class="glyphicon glyphicon-ok"></span></a>
+                    </div>
+                </nav>
+            </div>
+            <div class="row" style="height:100%">
+                <div class="col-xs-4" id="leftbar" style="border-right-style:solid;">
+                    <ul class="list-group">
+                        <li class="list-group-item" style="border:none; color:#528dc6">
+                          <span>Address Book App</span>
+                          <a class="pull-right"><span class="glyphicon glyphicon-cog"></span></a>
+                        </li>
+                        <li class="list-group-item" style="border:none; color:#528dc6"><span>Blogger</span>
+                          <a class="pull-right"><span class="glyphicon glyphicon-cog"></span></a></li>
+                        <li class="list-group-item" style="border:none; color:#528dc6"><span>Blogging App</span>
+                          <a class="pull-right"><span class="glyphicon glyphicon-cog"></span></a></li>
+                        <li class="list-group-item" style="border:none; color:#528dc6"><span>Script Testing App</span>
+                          <a class="pull-right"><span class="glyphicon glyphicon-cog"></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-8" id="rightbar">
+                    <form>
+                        <div class="form-group col-xs-12">
+                            <div style="font-weight:bold">Name</div>
+                            <input class="input col-xs-12" type="text" placeholder="text" style="border:1px solid gray">
+                        </div>
+                        <div class="form-group row-margin-top col-xs-12">
+                            <div style="font-weight:bold">Description</div>
+                            <textarea class="input col-xs-12" type="text" placeholder="textarea" style="border:1px solid gray; height: 100px"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <span style="background-color:#528dc6; width:100%; position: fixed; height: 50px; bottom:0">
+            <a href="../user/profile.html" class="navbar-brand col-xs-2 pull-right" style="color:white"><span class="glyphicon glyphicon-user"></span></a>
+        </span>
+    </body>
+</html>

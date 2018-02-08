@@ -1,0 +1,30 @@
+.row-margin-top { margin-top: 10px; }
+.row-margin-bottom { margin-bottom: 80px; }
+.btn-blue {
+    background-color:#528dc6 ;
+}
+.btn-green {
+    background-color:#73b163 ;
+}
+@media all and (orientation:portrait) {
+    #leftbar{
+        display:none;
+    }
+    #rightbar{
+        width: 100%
+    }
+    #websites {
+        display: none;
+    }
+    #plusicon {
+        display: none;
+    }
+    #neww {
+        width: 60%
+    }    
+    #neww2 {
+        width: 60%
+    }
+}
+@media screen and (orientation:landscape) {
+}
